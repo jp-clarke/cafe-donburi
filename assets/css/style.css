@@ -29,28 +29,32 @@ header {
     height: 75px;
 }
 
-h1 {
+h1, h2, h3, h4 {
     font-family: "Zen Kaku Gothic New", sans-serif;
-    font-size: 300%;
-    float: left;
-    margin-left: 30px;
     color: black;
 }
 
+h1 {
+    font-size: 300%;
+    float: left;
+    margin-left: 30px;
+}
+
 h2 {
-    font-family: "Zen Kaku Gothic New", sans-serif;
     font-size: 250%;
-    color: black;
     text-align: center;
     padding-top: 25px;
 }
 
 h3 {
-    font-family: "Zen Kaku Gothic New", sans-serif;
     font-size: 150%;
-    color: black;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+h4 {
+    text-align: center;
     padding-bottom: 5px;
 }
 
@@ -88,9 +92,16 @@ li {
 }
 
 #gallery {
-    height: 1200px;
-    border: 3px solid red;
-    margin: 5px;
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    margin-top: 50px;
+}
+
+#gallery > img {
+    width: 100%;
+    height: auto;
 }
 
 #cafe-menu {
