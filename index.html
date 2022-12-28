@@ -1,214 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Cafe Donburi Japanese cafe & takeway in East Kilbride, Glasgow, Scotland">
-    <meta name="keywords" content="cafe, takeaway, japanese, donburi, rice bowl, east kilbride, glasgow, scotland">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cafe Donburi Japanese cafe & takeway in East Kilbride, Glasgow, Scotland"
+    />
+    <meta
+      name="keywords"
+      content="cafe, takeaway, japanese, donburi, rice bowl, east kilbride, glasgow, scotland"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Cafe Donburi</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <header>
-        <a href="#">
-            <h1 id="logo">Cafe Donburi</h1>
-        </a>
-        <nav>
-            <ul id="navigation">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#gallery">Gallery</a>
-                </li>
-                <li>
-                    <a href="#cafe-menu">Menu</a>
-                </li>
-                <li>
-                    <a href="#find-us">Find Us</a>
-                </li>
-                <li>
-                    <a href="#">Book</a>
-                </li>
-            </ul>
-        </nav>
+      <a href="#">
+        <h1 id="logo">Cafe Donburi</h1>
+      </a>
+      <nav>
+        <ul id="navigation">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#gallery">Gallery</a>
+          </li>
+          <li>
+            <a href="#cafe-menu">Menu</a>
+          </li>
+          <li>
+            <a href="#find-us">Find Us</a>
+          </li>
+          <li>
+            <a href="#">Book</a>
+          </li>
+        </ul>
+
+        <!-- Dropdown menu code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown -->
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn"><i class="fa-solid fa-bars"></i></i></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#cafe-menu">Menu</a>
+            <a href="#find-us">Find Us</a>
+            <a href="#">Book</a>
+          </div>
+        </div>
+
+      </nav>
     </header>
+
     <section id="hero-outer">
-        <!-- Love Running -->
-        <div id="hero-image"></div>
-        <div id="cover-text">
-            <span>
-                <h3 id="hero-text">
-                    Authentic Japanese<br>
-                    Dine-in<br>
-                    Takeaway<br>
-                    Home Delivery<br>
-                    East Kilbride, Glasgow
-                </h3>
-            </span>
-        </div>
+      <!-- Love Running -->
+      <div id="hero-image"></div>
+      <div id="cover-text">
+        <span>
+          <h3 id="hero-text">
+            Authentic Japanese<br />
+            Dine-in<br />
+            Takeaway<br />
+            Home Delivery<br />
+            East Kilbride, Glasgow
+          </h3>
+        </span>
+      </div>
     </section>
+
     <section id="about">
-        <h2>About</h2>
-        <p>Donburi means rice bowl in Japanese!</p>
-        <p>Cafe Donburi is located in East Kilbride, Glasgow, and serves authentic Japanese food. We specialise in rice bowls, as well as sushi, noodles, and all of your favourite Japanese cuisine.</p>
-        <p>Book a table now, or phone 01355 123 456 for takeaway or home delivery.</p>
+      <h2>About</h2>
+      <p>Donburi means rice bowl in Japanese!</p>
+      <p>
+        Cafe Donburi is located in East Kilbride, Glasgow, and serves authentic
+        Japanese food. We specialise in rice bowls, as well as sushi, noodles,
+        and all of your favourite Japanese cuisine.
+      </p>
+      <p>
+        Book a table now, or phone 01355 123 456 for takeaway or home delivery.
+      </p>
     </section>
+
     <section id="gallery">
-        <img src="assets/images/teriyaki-chicken.jpg" alt="Plate of chicken teriyaki">
-        <img src="assets/images/sushi1.jpg" alt="Platter of sushi with chopsticks and soy sauce">
-        <img src="assets/images/donburi.jpg" alt="Vegetable rice bowl">
-        <img src="assets/images/maki-sushi.jpg" alt="Platter of maki-sushi with soy sauce and green tea">
-        <img src="assets/images/gyoza-noodles.jpg" alt="Gyoza and noodles with sides">        
-        <img src="assets/images/ramen1.jpg" alt="Bowl of noodles with chopsticks">
-        <img src="assets/images/sushi2.jpg" alt="Platter of sushi with wasabi">
-        <img src="assets/images/gyudon.jpg" alt="Beef rice bowl">
-        <img src="assets/images/ramen2.jpg" alt="Bowl of noodles">
-        <img src="assets/images/katsu-curry.jpg" alt="Bowl of katsu-curry">
-        <img src="assets/images/tempura-don.jpg" alt="Tempura rice bowl">
-        <img src="assets/images/coffee-matcha-latte.jpg" alt="A coffee and a matcha latte">
+      <img
+        src="assets/images/teriyaki-chicken.jpg"
+        alt="Plate of chicken teriyaki"
+      />
+      <img
+        src="assets/images/sushi1.jpg"
+        alt="Platter of sushi with chopsticks and soy sauce"
+      />
+      <img src="assets/images/donburi.jpg" alt="Vegetable rice bowl" />
+      <img
+        src="assets/images/maki-sushi.jpg"
+        alt="Platter of maki-sushi with soy sauce and green tea"
+      />
+      <img
+        src="assets/images/gyoza-noodles.jpg"
+        alt="Gyoza and noodles with sides"
+      />
+      <img
+        src="assets/images/ramen1.jpg"
+        alt="Bowl of noodles with chopsticks"
+      />
+      <img src="assets/images/sushi2.jpg" alt="Platter of sushi with wasabi" />
+      <img src="assets/images/gyudon.jpg" alt="Beef rice bowl" />
+      <img src="assets/images/ramen2.jpg" alt="Bowl of noodles" />
+      <img src="assets/images/katsu-curry.jpg" alt="Bowl of katsu-curry" />
+      <img src="assets/images/tempura-don.jpg" alt="Tempura rice bowl" />
+      <img
+        src="assets/images/coffee-matcha-latte.jpg"
+        alt="A coffee and a matcha latte"
+      />
     </section>
+
     <section id="cafe-menu">
-        <h2>Menu</h2>
-        <h3>Starters / Sides</h3>
-            <ul>
-                <li>Edamame Beans</li>
-                <li>Miso Soup</li>
-                <li>Gyoza</li>
-                <li>Teriyaki Chicken Bites</li>
-            </ul>
-        <h3>Sushi</h3>
-            <ul>
-                <li>Nigiri</li>
-                <li>Maki Sushi</li>
-                <li>Sashimi</li>
-            </ul>
-        <h3>Rice Bowls (Donburi)</h3>
-            <ul>
-                <li>Tofu Rice Bowl (Tofudon)</li>
-                <li>Chicken and Egg Rice Bowl (Oyakodon)</li>
-                <li>Pork Rice Bowl (Katsudon)</li>
-                <li>Beef Rice Bowl (Gyudon)</li>
-                <li>Salmon Rice Bowl (Sakedon)</li>
-                <li>Tempura Rice Bowl (Tempuradon)</li>
-                <li>Katsu Curry</li>
-            </ul>
-        <h3>Noodles</h3>
-        <h4>Choice of Noodle - Ramen or Udon</h4>
-        <h4>Choice of Soup Base - Soy Sauce, Miso or Tonkotsu (Pork Broth)</h4>
-            <ul>
-                <li>Tofu</li>
-                <li>Chicken</li>
-                <li>Pork</li>
-                <li>Beef</li>
-            </ul>
-        <h3>Dessert</h3>
-            <ul>
-                <li>Ice Cream</li>
-                <li>Cake</li>
-            </ul>
-        <h3>Drinks</h3>
-            <ul>
-                <li>Fresh Orange Juice</li>
-                <li>Cola</li>
-                <li>Lemonade</li>
-                <li>Coffee</li>
-                <li>Matcha Latte</li>
-                <li>Tea</li>
-                <li>Green Tea</li>
-            </ul>
+      <h2>Menu</h2>
+      <h3>Starters / Sides</h3>
+      <ul>
+        <li>Edamame Beans</li>
+        <li>Miso Soup</li>
+        <li>Gyoza</li>
+        <li>Teriyaki Chicken Bites</li>
+      </ul>
+      <h3>Sushi</h3>
+      <ul>
+        <li>Nigiri</li>
+        <li>Maki Sushi</li>
+        <li>Sashimi</li>
+      </ul>
+      <h3>Rice Bowls (Donburi)</h3>
+      <ul>
+        <li>Tofu Rice Bowl (Tofudon)</li>
+        <li>Chicken and Egg Rice Bowl (Oyakodon)</li>
+        <li>Pork Rice Bowl (Katsudon)</li>
+        <li>Beef Rice Bowl (Gyudon)</li>
+        <li>Salmon Rice Bowl (Sakedon)</li>
+        <li>Tempura Rice Bowl (Tempuradon)</li>
+        <li>Katsu Curry</li>
+      </ul>
+      <h3>Noodles</h3>
+      <h4>Choice of Noodle - Ramen or Udon</h4>
+      <h4>Choice of Soup Base - Soy Sauce, Miso or Tonkotsu (Pork Broth)</h4>
+      <ul>
+        <li>Tofu</li>
+        <li>Chicken</li>
+        <li>Pork</li>
+        <li>Beef</li>
+      </ul>
+      <h3>Dessert</h3>
+      <ul>
+        <li>Ice Cream</li>
+        <li>Cake</li>
+      </ul>
+      <h3>Drinks</h3>
+      <ul>
+        <li>Fresh Orange Juice</li>
+        <li>Cola</li>
+        <li>Lemonade</li>
+        <li>Coffee</li>
+        <li>Matcha Latte</li>
+        <li>Tea</li>
+        <li>Green Tea</li>
+      </ul>
     </section>
+
     <footer id="find-us">
-        <h2>Find Us</h2>
-        <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8977.639589179067!2d-4.185592452549975!3d55.76875250962945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48883f6768bf1199%3A0x17def203b0dea34f!2sThe%20Village%2C%20East%20Kilbride%2C%20Glasgow%20G74%204DR!5e0!3m2!1sen!2suk!4v1672073625615!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="details">
-            <h3>Cafe Donburi</h3>
-            <h4>Japanese Cafe & Takeaway</h4>
-            <p>
-                The Village<br>
-                East Kilbride<br>
-                Glasgow<br>
-                G74 4DR
-            </p>
-            <p>
-                Telephone:<br>
-                01355 123 456
-            </p>
-            <!-- Love Running -->
-            <ul id="social">
-                <li>
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page"><i class="fa-brands fa-instagram"></i></a>
-                </li>
-            </ul>
-        </div>
-        <div class="details">
-            <h3>Opening Hours</h3>
-            <p>
-                Monday<br>
-                Closed
-            </p>
-            <p>
-                Tuesday<br>
-                12:00pm - 9:00pm
-            </p>
-            <p>
-                Wednesday<br>
-                12:00pm - 9:00pm
-            </p>
-            <p>
-                Thursday<br>
-                12:00pm - 9:00pm
-            </p>
-            <p>
-                Friday & Saturday<br>
-                12:00pm - 11:00pm
-            </p>
-            <p>
-                Sunday<br>
-                12:00pm - 6:00pm
-            </p>
-        </div>
+      <h2>Find Us</h2>
+      <div id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8977.639589179067!2d-4.185592452549975!3d55.76875250962945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48883f6768bf1199%3A0x17def203b0dea34f!2sThe%20Village%2C%20East%20Kilbride%2C%20Glasgow%20G74%204DR!5e0!3m2!1sen!2suk!4v1672073625615!5m2!1sen!2suk"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="details">
+        <h3>Cafe Donburi</h3>
+        <h4>Japanese Cafe & Takeaway</h4>
+        <p>
+          The Village<br />
+          East Kilbride<br />
+          Glasgow<br />
+          G74 4DR
+        </p>
+        <p>
+          Telephone:<br />
+          01355 123 456
+        </p>
+        <!-- Love Running -->
+        <ul id="social">
+          <li>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Facebook page"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Instagram page"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="details">
+        <h3>Opening Hours</h3>
+        <p>
+          Monday<br />
+          Closed
+        </p>
+        <p>
+          Tuesday<br />
+          12:00pm - 9:00pm
+        </p>
+        <p>
+          Wednesday<br />
+          12:00pm - 9:00pm
+        </p>
+        <p>
+          Thursday<br />
+          12:00pm - 9:00pm
+        </p>
+        <p>
+          Friday & Saturday<br />
+          12:00pm - 11:00pm
+        </p>
+        <p>
+          Sunday<br />
+          12:00pm - 6:00pm
+        </p>
+      </div>
     </footer>
 
-    <!-- table reservation form -->
+    <!-- table reservation form 
     <section id="booking">
-        <form method="post" action="#">
-            <h2>Book a Table</h2>
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required class="text-input">
-            </div>
-            <div>
-                <label for="phone">Phone:</label>
-                <input type="text" id="phone" name="phone" required class="text-input">
-            </div>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" class="text-input">
-            </div>
-            <div>
-                <label for="date">Date:</label>
-                <input type="date" id="date" name="date" required class="date-time">
-            </div>
-            <div>
-                <label for="time">Time:</label>
-                <input type="time" id="time" name="time" required class="date-time">
-            </div>
-            <button type="submit">Book a Table</button>
-
-        </form>
+      <form method="post" target="_blank" action="https://formdump.codeinstitute.net/">
+        <h2>Book a Table</h2>
+        <div>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            class="text-input"
+          />
+        </div>
+        <div>
+          <label for="phone">Phone:</label>
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            required
+            class="text-input"
+          />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" class="text-input" />
+        </div>
+        <div>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required class="date-time" />
+        </div>
+        <div>
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required class="date-time" />
+        </div>
+        <button type="submit" id="submit">Book a Table</button>
+      </form>
     </section>
+    -->
 
     <!-- font awesome script -->
-    <script src="https://kit.fontawesome.com/96325dbe70.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/96325dbe70.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Dropdown menu script from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown -->
+    <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
+
+  </body>
 </html>
