@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cafe Donburi Japanese cafe & takeway in East Kilbride, Glasgow, Scotland"
+    />
+    <meta
+      name="keywords"
+      content="cafe, takeaway, japanese, donburi, rice bowl, east kilbride, glasgow, scotland"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Cafe Donburi</title>
+  </head>
+
+  <body>
+
+    <section id="booking">
+      <form method="post" target="_blank" action="https://formdump.codeinstitute.net/">
+        <h2>Book a Table</h2>
+        <div>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            class="text-input"
+          />
+        </div>
+        <div>
+          <label for="phone">Phone:</label>
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            required
+            class="text-input"
+          />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" class="text-input" />
+        </div>
+        <div>
+          <label for="guests">Guests (Up to 6):</label>
+          <input type="number" id="guests" name="guests" min="1" max="6" class="date-time" />
+        </div>
+        <div>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required class="date-time" />
+        </div>
+        <div>
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required class="date-time" />
+        </div>
+        <div class="button-book">
+          <button type="submit" id="submit">Book a Table</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- font awesome script -->
+    <script
+      src="https://kit.fontawesome.com/96325dbe70.js"
+      crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>
