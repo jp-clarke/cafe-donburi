@@ -1,108 +1,128 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Cafe Donburi
 
-Welcome John Clarke,
+Cafe Donburi is a website for a fictional Japanese Cafe and Takeaway located in East Kilbride, Glasgow.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This is a single page scrolling website with a sticky header to allow for user friendly navigation.
 
-## Gitpod Reminders
+### Navigation Bar
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- The Navigation Bar includes links to the Logo/Home, as well as the About, Gallery, Menu and Find Us sections of the page. The Book links to a form in a popup window, which allows the user to make a table reservation.
 
-`python3 -m http.server`
+- The Navigation Bar is fully responsive and switches to a hamburger style menu at smaller screen sizes.
 
-A blue button should appear to click: _Make Public_,
+- The Navigation Bar is 'sticky', and remains visible to the user at all times to make navigation easier for the user.
 
-Another blue button should appear to click: _Open Browser_.
+- In large screen format the links are highlighted in a red circle to catch the user's eye, as well as keeping with the Japanese theme.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Landing
 
-A blue button should appear to click: _Make Public_,
+- The landing consists of a hero image of Cafe Donburi's speciality dish with text overlay.
 
-Another blue button should appear to click: _Open Browser_.
+- The text overlay is set in a red circle to establish the Japanese theme and gives the user dining theme, options and location.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### About section
 
-To log into the Heroku toolbelt CLI:
+- The About section gives the user an introduction to Cafe Donburi.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- In this section the user is given important pieces of information, including food speciality, location, link for booking a table and phone number for takeaway and home delivery.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Gallery section
 
-------
+- The Gallery section showcases some of the highlights of the food on offer at Cafe Donburi.
 
-## Release History
+- The user can see the type of food on offer and the appearance of specific dishes and drinks.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Menu section
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- The Menu section gives a comprehensive list of the food and drink on offer at Cafe Donburi.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- The user can see everything that's available to order for takeaway and home delivery.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- If dining in, the user can view what's available in advance.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Find Us section
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- As this is a single page scrolling site, the Find Us section forms the footer of the page.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- This section contains a map showing the location of Cafe Donburi, address, phone number, opening hours and social media links.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- The user is given all necessary information to visit or contact Cafe Donburi in this section.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Booking section
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Features to be implemented
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+ Better booking section (table availability, more refined date and time selections, etc.)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Testing
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Validator Testing
 
-------
+#### HTML
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
+#### CSS
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+#### Accessibility
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Unfixed Bugs
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+## Deployment
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+## Credits
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Content
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- The following page was used for the hamburger menu on smaller screens, and modified to suit:
+https://www.w3schools.com/howto/howto_js_dropdown.asp
 
-**Anything more?**
+- Hamburger menu and social media link icons from font awesome.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- The Love Running walkthrough project by Code Institute was used as a starting point for various sections, in particular the Landing and Gallery, as well as the section for social media links and Booking form.
 
----
+- Google map in Find Us section was added using the following link as a guide:
+https://blog.duda.co/responsive-google-maps-for-your-website
 
-Happy coding!
+- Smooth scrolling code:
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown
+
+- Sticky header code:
+https://www.w3schools.com/howto/howto_css_sticky_element.asp
+
+- Scroll margin code:
+https://www.w3schools.com/cssref/css_pr_scroll-margin-top.php
+
+- The following link was used to solve the issue of the hamburger icon blocking the button below from being clicked:
+https://stackoverflow.com/questions/36927140/cant-click-the-button-because-of-the-overlay
+
+### Images
+
+- The [hero image](/assets/images/hero-shot.png) was taken from https://www.canva.com/
+
+- The following images were taken from https://www.pexels.com/
+    - sushi2.jpg
+    - tempura-don.jpg
+
+- The following images were taken from https://pixabay.com/
+    - coffee-matcha-latte.jpg
+    - donburi.jpg
+    - gyudon.jpg
+
+- The following images were taken from https://unsplash.com/
+    - gyoza-noodles.jpg
+    - ramen1.jpg
+    - ramen2.jpg
+    - sushi1.jpg
+    - teriyaki-chicken.jpg
+
+- The following images are the developer's own
+    - katsu-curry.jpg
+    - maki-sushi.jpg

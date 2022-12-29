@@ -182,7 +182,7 @@ li {
     margin: auto;
 }
 
-/* https://blog.duda.co/responsive-google-maps-for-your-website */
+/* Code for Google Map from https://blog.duda.co/responsive-google-maps-for-your-website */
 
 #map {
     display: inline-block;
@@ -290,7 +290,7 @@ footer {
     scroll-margin-top: 75px;
 }
 
-/* Dropdown menu code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown */
+/* Dropdown menu code from https://www.w3schools.com/howto/howto_js_dropdown.asp */
 @media screen and (max-width: 950px) {
 
     #navigation li {
@@ -304,6 +304,12 @@ footer {
         font-size: 200%;
         color: #111926;
         background-color:rgba(238, 230, 217, 1);
+        z-index: 1;
+    }
+
+    /* https://stackoverflow.com/questions/36927140/cant-click-the-button-because-of-the-overlay */
+    i {
+        pointer-events: none;
     }
 
     .dropdown {
