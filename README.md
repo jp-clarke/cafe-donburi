@@ -105,7 +105,7 @@ https://stackoverflow.com/questions/36927140/cant-click-the-button-because-of-th
 
 ### Images
 
-- The [hero image](/assets/images/hero-shot.png) was taken from https://www.canva.com/
+- The hero image (hero-shot.png) was taken from https://www.canva.com/
 
 - The following images were taken from https://www.pexels.com/
     - sushi2.jpg
