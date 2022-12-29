@@ -37,21 +37,21 @@
             <a href="#find-us">Find Us</a>
           </li>
           <li>
-            <a href="booking.html" target="_blank">Book</a>
+            <a href="booking.html" target="_self">Book</a>
           </li>
         </ul>
 
         <!-- Dropdown menu code from https://www.w3schools.com/howto/howto_js_dropdown.asp -->
         <div class="dropdown">
           <!-- Hamurger menu icon from font awesome-->
-          <button onclick="myFunction()" class="dropbtn"><i class="fa-solid fa-bars"></i></button>
+          <button onclick="myFunction()" class="dropbtn" aria-label="Dropdown Menu"><i class="fa-solid fa-bars"></i></button>
           <div id="myDropdown" class="dropdown-content">
             <a href="#">Home</a>
             <a href="#about">About</a>
             <a href="#gallery">Gallery</a>
             <a href="#cafe-menu">Menu</a>
             <a href="#find-us">Find Us</a>
-            <a href="booking.html" target="_blank">Book</a>
+            <a href="booking.html" target="_self">Book</a>
           </div>
         </div>
 
@@ -88,30 +88,33 @@
     </section>
 
     <section id="gallery">
-      <img
-        src="assets/images/teriyaki-chicken.jpg"
-        alt="Plate of chicken teriyaki">
-      <img
-        src="assets/images/sushi1.jpg"
-        alt="Platter of sushi with chopsticks and soy sauce">
-      <img src="assets/images/donburi.jpg" alt="Vegetable rice bowl">
-      <img
-        src="assets/images/maki-sushi.jpg"
-        alt="Platter of maki-sushi with soy sauce and green tea">
-      <img
-        src="assets/images/gyoza-noodles.jpg"
-        alt="Gyoza and noodles with sides">
-      <img
-        src="assets/images/ramen1.jpg"
-        alt="Bowl of noodles with chopsticks">
-      <img src="assets/images/sushi2.jpg" alt="Platter of sushi with wasabi">
-      <img src="assets/images/gyudon.jpg" alt="Beef rice bowl">
-      <img src="assets/images/ramen2.jpg" alt="Bowl of noodles">
-      <img src="assets/images/katsu-curry.jpg" alt="Bowl of katsu-curry">
-      <img src="assets/images/tempura-don.jpg" alt="Tempura rice bowl">
-      <img
-        src="assets/images/coffee-matcha-latte.jpg"
-        alt="A coffee and a matcha latte">
+      <h2>Gallery</h2>
+      <div id="images">
+        <img
+          src="assets/images/teriyaki-chicken.jpg"
+          alt="Plate of chicken teriyaki">
+        <img
+          src="assets/images/sushi1.jpg"
+          alt="Platter of sushi with chopsticks and soy sauce">
+        <img src="assets/images/donburi.jpg" alt="Vegetable rice bowl">
+        <img
+          src="assets/images/maki-sushi.jpg"
+          alt="Platter of maki-sushi with soy sauce and green tea">
+        <img
+          src="assets/images/gyoza-noodles.jpg"
+          alt="Gyoza and noodles with sides">
+        <img
+          src="assets/images/ramen1.jpg"
+          alt="Bowl of noodles with chopsticks">
+        <img src="assets/images/sushi2.jpg" alt="Platter of sushi with wasabi">
+        <img src="assets/images/gyudon.jpg" alt="Beef rice bowl">
+        <img src="assets/images/ramen2.jpg" alt="Bowl of noodles">
+        <img src="assets/images/katsu-curry.jpg" alt="Bowl of katsu-curry">
+        <img src="assets/images/tempura-don.jpg" alt="Tempura rice bowl">
+        <img
+          src="assets/images/coffee-matcha-latte.jpg"
+          alt="A coffee and a matcha latte">
+      </div>
     </section>
 
     <section id="cafe-menu">
