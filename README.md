@@ -4,6 +4,8 @@ This is a site for Cafe Donburi, a fictional Japanese Cafe and Takeaway located 
 
 The site is targeted to locals and visitors to the area to encourage them to try traditional Japanese dishes either dining in or takeaway, as well as allowing both new and returning customers to view the some of the food available, the menu and make table reservations. It will also help customers locate and contact Cafe Donburi.
 
+![Alt text](assets/screenshots/amiresponsive.PNG)
+
 ## Features
 
 This is a single page scrolling website with a sticky header to allow for user friendly navigation between sections. There is a single separate page with a form for bookings.
