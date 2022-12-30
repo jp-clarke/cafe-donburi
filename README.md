@@ -4,11 +4,11 @@ This is a site for Cafe Donburi, a fictional Japanese Cafe and Takeaway located 
 
 The site is targeted to locals and visitors to the area to encourage them to try traditional Japanese dishes either dining in or takeaway, as well as allowing both new and returning customers to view the some of the food available, the menu and make table reservations. It will also help customers locate and contact Cafe Donburi.
 
-![Alt text](assets/screenshots/amiresponsive.PNG)
+![Alt text](docs/screenshots/amiresponsive.PNG)
 
 ## Features
 
-This is a single page scrolling website with a sticky header to allow for user friendly navigation between sections. There is a single separate page with a form for bookings.
+This is primarily a single page scrolling website with a sticky header to allow for user friendly navigation between sections. There is a single separate page with a form for bookings.
 
 ### Navigation Bar
 
@@ -20,7 +20,7 @@ This is a single page scrolling website with a sticky header to allow for user f
 
 - In large screen format the links are highlighted in a red circle to catch the user's eye, as well as keeping with the Japanese theme.
 
-![Navigation bar for desktop and mobile](assets/screenshots/navbar-desktop-mobile.png)
+![Navigation bar for desktop and mobile](docs/screenshots/navbar-desktop-mobile.png)
 
 ### Landing
 
@@ -28,7 +28,7 @@ This is a single page scrolling website with a sticky header to allow for user f
 
 - The text overlay is set in a red circle and establishes the Japanese theme, dining options and location to the user.
 
-![Landing](assets/screenshots/landing.PNG)
+![Landing](docs/screenshots/landing.PNG)
 
 ### About section
 
@@ -36,7 +36,7 @@ This is a single page scrolling website with a sticky header to allow for user f
 
 - In this section the user is given important pieces of information, including food speciality, location, link for booking a table and phone number for takeaway and home delivery.
 
-![About section](assets/screenshots/about-section.PNG)
+![About section](docs/screenshots/about-section.PNG)
 
 ### Gallery section
 
@@ -44,7 +44,7 @@ This is a single page scrolling website with a sticky header to allow for user f
 
 - The user can see the type of food on offer and the appearance of specific dishes and drinks.
 
-![Gallery section](assets/screenshots/gallery-section.PNG)
+![Gallery section](docs/screenshots/gallery-section.PNG)
 
 ### Menu section
 
@@ -54,7 +54,7 @@ This is a single page scrolling website with a sticky header to allow for user f
 
 - If dining in, the user can view what's available in advance.
 
-![Menu section](assets/screenshots/menu-section.PNG)
+![Menu section](docs/screenshots/menu-section.PNG)
 
 ### Find Us section
 
@@ -64,7 +64,7 @@ This is a single page scrolling website with a sticky header to allow for user f
 
 - The user is given all necessary information to visit or contact Cafe Donburi in this section.
 
-![Find Us section](assets/screenshots/find-us.PNG)
+![Find Us section](docs/screenshots/find-us.PNG)
 
 ### Booking section
 
@@ -72,7 +72,7 @@ This is a single page scrolling website with a sticky header to allow for user f
 
 - The user can fill out the form to make a table reservation and return to the main page using the 'Go Back' button.
 
-![Booking section](assets/screenshots/booking-section.PNG)
+![Booking section](docs/screenshots/booking-section.PNG)
 
 ### Features to be implemented
 
@@ -80,23 +80,51 @@ This is a single page scrolling website with a sticky header to allow for user f
 
 ## Testing
 
+- This site has been tested on the following browsers:
+    - Chrome
+    - Safari
+    - Edge
+    - Firefox
+    - Opera
+
+- Testing consisted of the following:
+    - Loading the home page.
+    - Visual inspection of the header, navigation and all sections of the page to ensure that the layout is as expected.
+    - Test all links in the navigation bar for functionality and to ensure smooth scrolling between sections.
+    - Navigate to booking page to repeat visual inspection of layout.
+    - Test booking form works as expected, including back and submit buttons, using https://formdump.codeinstitute.net/
+
+- Responsive design was tested primarily using Chrome DevTools across standard screen sizes from desktop (1920x1080) down to small mobile (320x480). Transitions between media query breakpoints were observed. Testing was also conducted on several available hardware devices within the above range of screen sizes.
 
 ### Validator Testing
 
 #### HTML
 
+- No errors returned when checking code with the official W3C validator.
 
 #### CSS
 
+- No errors returned when checking code with the official W3C CSS validator.
 
 #### Accessibility
+
 
 
 ### Unfixed Bugs
 
 
+
 ## Deployment
 
+The site was deployed using Github Pages as follows:
+- In the GitHub repository, go to settings.
+- Navigate to the Pages section.
+- Select Deploy from a branch from the Source drop-down menu.
+- Select main from the Branch drop-down menu.
+- Select /(root) from the Folder drop-down menu, and save.
+
+The live link for the site is:
+https://jp-clarke.github.io/cafe-donburi/index.html
 
 ## Credits
 
