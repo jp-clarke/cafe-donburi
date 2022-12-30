@@ -1,10 +1,12 @@
 # Cafe Donburi
 
-Cafe Donburi is a website for a fictional Japanese Cafe and Takeaway located in East Kilbride, Glasgow.
+This is a site for Cafe Donburi, a fictional Japanese Cafe and Takeaway located in East Kilbride, Glasgow.
+
+The site is targeted to locals and visitors to the area to encourage them to try traditional Japanese dishes either dining in or takeaway, as well as allowing both new and returning customers to view the some of the food available, the menu and make table reservations. It will also help customers locate and contact Cafe Donburi.
 
 ## Features
 
-This is a single page scrolling website with a sticky header to allow for user friendly navigation.
+This is a single page scrolling website with a sticky header to allow for user friendly navigation between sections. There is a single separate page with a form for bookings.
 
 ### Navigation Bar
 
@@ -20,7 +22,7 @@ This is a single page scrolling website with a sticky header to allow for user f
 
 - The landing consists of a hero image of Cafe Donburi's speciality dish with text overlay.
 
-- The text overlay is set in a red circle to establish the Japanese theme and gives the user dining theme, options and location.
+- The text overlay is set in a red circle and establishes the Japanese theme, dining options and location to the user.
 
 ### About section
 
@@ -52,6 +54,9 @@ This is a single page scrolling website with a sticky header to allow for user f
 
 ### Booking section
 
+- The Booking section is on a separate page with all other information removed.
+
+- The user can fill out the form to make a table reservation and return to the main page using the 'Go Back' button.
 
 ### Features to be implemented
 

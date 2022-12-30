@@ -421,7 +421,7 @@ footer {
         display: block;
         width: 100%;
         min-height: 250px;
-        margin: 0 auto;
+        margin: 25px auto;
     }
 
     .details {
@@ -434,7 +434,7 @@ footer {
     }
 
     #booking {
-        width: 100%;
+        width: 95%;
     }
     
     label, .text-input, .date-time {
