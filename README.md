@@ -18,11 +18,15 @@ This is a single page scrolling website with a sticky header to allow for user f
 
 - In large screen format the links are highlighted in a red circle to catch the user's eye, as well as keeping with the Japanese theme.
 
+![Navigation bar for desktop and mobile](assets/screenshots/navbar-desktop-mobile.png)
+
 ### Landing
 
 - The landing consists of a hero image of Cafe Donburi's speciality dish with text overlay.
 
 - The text overlay is set in a red circle and establishes the Japanese theme, dining options and location to the user.
+
+![Landing](assets/screenshots/landing.PNG)
 
 ### About section
 
@@ -30,11 +34,15 @@ This is a single page scrolling website with a sticky header to allow for user f
 
 - In this section the user is given important pieces of information, including food speciality, location, link for booking a table and phone number for takeaway and home delivery.
 
+![About section](assets/screenshots/about-section.PNG)
+
 ### Gallery section
 
 - The Gallery section showcases some of the highlights of the food on offer at Cafe Donburi.
 
 - The user can see the type of food on offer and the appearance of specific dishes and drinks.
+
+![Gallery section](assets/screenshots/gallery-section.PNG)
 
 ### Menu section
 
@@ -44,6 +52,8 @@ This is a single page scrolling website with a sticky header to allow for user f
 
 - If dining in, the user can view what's available in advance.
 
+![Menu section](assets/screenshots/menu-section.PNG)
+
 ### Find Us section
 
 - As this is a single page scrolling site, the Find Us section forms the footer of the page.
@@ -52,11 +62,15 @@ This is a single page scrolling website with a sticky header to allow for user f
 
 - The user is given all necessary information to visit or contact Cafe Donburi in this section.
 
+![Find Us section](assets/screenshots/find-us.PNG)
+
 ### Booking section
 
 - The Booking section is on a separate page with all other information removed.
 
 - The user can fill out the form to make a table reservation and return to the main page using the 'Go Back' button.
+
+![Booking section](assets/screenshots/booking-section.PNG)
 
 ### Features to be implemented
 
