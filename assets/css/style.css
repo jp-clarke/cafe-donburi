@@ -193,7 +193,6 @@ li {
 }
 
 /* Code for Google Map from https://blog.duda.co/responsive-google-maps-for-your-website */
-
 #map {
     display: inline-block;
     overflow: hidden;

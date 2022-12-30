@@ -8,7 +8,7 @@ The site is targeted to locals and visitors to the area to encourage them to try
 
 ## Features
 
-This is primarily a single page scrolling website with a sticky header to allow for user friendly navigation between sections. There is a single separate page with a form for bookings.
+This is primarily a single page scrolling website with a sticky header to allow for user friendly navigation between sections. There is a single separate page with a form for table bookings.
 
 ### Navigation Bar
 
@@ -76,7 +76,8 @@ This is primarily a single page scrolling website with a sticky header to allow 
 
 ### Features to be implemented
 
- Better booking section (table availability, more refined date and time selections, etc.)
+- The Booking section was intended to be a popup form on the home page, which would appear when the link was clicked. Once the form was filled out and submitted, the popup would return a confirmation message and allow the user to return to the home page. Currently, the Booking section is a separate page from which the user must navigate back to the home page.
+- The form for booking a table contains inputs for date and time which are currently not restricted. In future, these should should be constrained by the opening days/hours of the Cafe.
 
 ## Testing
 
@@ -94,7 +95,11 @@ This is primarily a single page scrolling website with a sticky header to allow 
     - Navigate to booking page to repeat visual inspection of layout.
     - Test booking form works as expected, including back and submit buttons, using https://formdump.codeinstitute.net/
 
-- Responsive design was tested primarily using Chrome DevTools across standard screen sizes from desktop (1920x1080) down to small mobile (320x480). Transitions between media query breakpoints were observed. Testing was also conducted on several available hardware devices within the above range of screen sizes.
+- Responsive design was tested primarily using Chrome DevTools across standard screen sizes from desktop (1920x1080) down to small mobile (320x480). Transitions between all media query breakpoints were observed. Testing was also conducted on several available hardware devices within the above range of screen sizes.
+
+### Bugs
+
+
 
 ### Validator Testing
 
@@ -107,10 +112,6 @@ This is primarily a single page scrolling website with a sticky header to allow 
 - No errors returned when checking code with the official W3C CSS validator.
 
 #### Accessibility
-
-
-
-### Unfixed Bugs
 
 
 
