@@ -444,11 +444,13 @@ footer {
 
     #booking {
         width: 95%;
-    }
+        margin-top: 15px;
+        margin-bottom: 15px;
+        }
     
     label, .text-input, .date-time {
         display: block;
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
 
@@ -459,7 +461,7 @@ footer {
     }
 
     .button-book {
-        width: 80%;
+        width: 90%;
         margin: 50px auto 25px;
     }
 
@@ -467,13 +469,35 @@ footer {
 
 @media screen and (max-width: 450px) {
 
-    #logo {
-        font-size: 250%;
+    h1 {
+        font-size: 225%;
         line-height: 75px;
+        margin-left: 15px;
     }
 
     .dropbtn {
         margin-right: 0;
+        width: 65px;
+    }
+
+    label {
+        margin-top: 30px;
+    }
+
+    #submit {
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        font-size: 80%;
+        font-weight: bold;
+    }
+
+    #back {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 80%;
+        font-weight: bold;
     }
 
 }
