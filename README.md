@@ -4,7 +4,24 @@ This is a site for Cafe Donburi, a fictional Japanese Cafe and Takeaway located 
 
 The site is targeted to locals and visitors to the area to encourage them to try traditional Japanese dishes either dining in or takeaway, as well as allowing both new and returning customers to view pictures some of the available dishes, the menu and make table reservations. It will also help customers locate and contact Cafe Donburi.
 
-![Alt text](docs/screenshots/amiresponsive.PNG)
+![Am I Responsive screenshot](docs/screenshots/amiresponsive.PNG)
+
+## Design
+
+### Wireframe
+
+The intention from the beginning was to create a single page scrolling site with a sticky header. The layout would be kept simple and would require minimal changes from desktop down to mobile screens. For this reason a single wireframe was designed in Balsamiq which would then be applied across all screen sizes.
+![Wireframe](docs/balsamiq/wireframe.PNG)
+
+### Typography
+
+The font for the headings is "Zen Kaku Gothic New", selected as it is a Japanese font. It was paired with "Open Sans". Both come from Google Fonts and are stylish and easy on the eye.
+
+### Color Scheme
+
+The color scheme begins with the header. The background color is Japanese White (#EEE6D9), which is contrasted with its inverse color, Eerie Black (#111926). This is used for the header text. The body of the page reverses these colors, with the text in Japanese White and background in Eerie Black. Red is used in places as it it both eye catching and a color associated with Japan.
+
+![Color scheme](docs/colors/colors.png)
 
 ## Features
 
@@ -116,11 +133,11 @@ There is a separate page with a form for table bookings along with a booking con
 
 - When implementing the hamburger menu for smaller screen sizes, the font awesome icon was blocking the drop-down menu button and preventing it from being clicked. Researching the issue led to a post on Stack Overflow (link can be found in the credits section) which suggested setting the pointer-events property to none in CSS. This solved the issue.
 
-- On loading the home page initially, the scrolling triggered by navigating to other sections on the page was not smooth. The scrolling became smooth after the first one to two clicks. It was suspected that this was being caused by excessive image sizes. Having applied proper sizing to the images, the problem seems to have disappeared.
+- On loading the home page initially, the scrolling triggered by navigating to other sections on the page was not smooth. The scrolling became smooth after the first one to two clicks. It was suspected that this was being caused by excessive image sizes. Having applied proper sizing to the images, the problem seems to have disappeared. This has also dramatically improved the performance (see Accessibility section)
 
 - On an iPad running an older version of Safari, the navigation bar was not acting as a sticky element. It was discovered that the developer had forgotten to add the -webkit- prefix to the sticky value, as required by Safari. When this was added, the issue was rectified (link showing how to apply position:sticky; to the header can be found in the credits section).
 
-### Known Bugs
+### Unfixed Bugs
 
 - The Booking form allows the user to input dates and times which are outwith opening hours and/or in the past. There is also nothing preventing overbooking as there is no constraint on capacity at any given time. Research suggests that javascript is required to rectify these issues. Due to a lack of experience in the use of javascript, this was not attempted.
 
@@ -130,13 +147,32 @@ There is a separate page with a form for table bookings along with a booking con
 
 - No errors returned when checking code with the official W3C validator.
 
+- Homepage
+![W3C validator for homepage](docs/w3c/w3c-home.PNG)
+
+- Booking page
+![W3C validator for booking page](docs/w3c/w3c-booking.PNG)
+
+- Confirmation page
+![W3C validator for confirmation page](docs/w3c/w3c-confirmation.PNG)
+
 #### CSS
 
 - No errors returned when checking code with the official W3C CSS validator.
+![W3C CSS validator](docs/w3c/w3c-css.PNG)
 
 #### Accessibility
 
+- All pages were tested for accessibility using Lighthouse in Chrome DevTools, along with performance, best practices and SEO.
 
+- Homepage
+![Lighthouse results for homepage](docs/lighthouse/lighthouse-home.PNG)
+
+- Booking page
+![Lighthouse results for booking page](docs/lighthouse/lighthouse-booking.PNG)
+
+- Confirmation page
+![Lighthouse results for confirmation page](docs/lighthouse/lighthouse-confirmation.PNG)
 
 ## Deployment
 
@@ -199,3 +235,8 @@ https://stackoverflow.com/questions/36927140/cant-click-the-button-because-of-th
 - The following images are the developer's own
     - katsu-curry.jpg
     - maki-sushi.jpg
+
+### Acknowledgements
+
+- I'd like to thank my mentor, Jubril Akolade for his guidance and support so far.
+- Thank you to the Code Institute Slack Community for the wealth of additional resources provided.
