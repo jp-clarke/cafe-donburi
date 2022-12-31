@@ -2,23 +2,25 @@
 
 This is a site for Cafe Donburi, a fictional Japanese Cafe and Takeaway located in East Kilbride, Glasgow.
 
-The site is targeted to locals and visitors to the area to encourage them to try traditional Japanese dishes either dining in or takeaway, as well as allowing both new and returning customers to view the some of the food available, the menu and make table reservations. It will also help customers locate and contact Cafe Donburi.
+The site is targeted to locals and visitors to the area to encourage them to try traditional Japanese dishes either dining in or takeaway, as well as allowing both new and returning customers to view pictures some of the available dishes, the menu and make table reservations. It will also help customers locate and contact Cafe Donburi.
 
 ![Alt text](docs/screenshots/amiresponsive.PNG)
 
 ## Features
 
-This is primarily a single page scrolling website with a sticky header to allow for user friendly navigation between sections. There is a single separate page with a form for table bookings.
+The home page contains almost all of the content and is in the style of a single page scrolling website. It has a sticky header to allow for user friendly navigation between sections.
+
+There is a separate page with a form for table bookings along with a booking confirmation page which consists of a confirmation message and home button.
 
 ### Navigation Bar
 
-- The Navigation Bar includes links to the Logo/Home, as well as the About, Gallery, Menu and Find Us sections of the page. The Book links to a form in a popup window, which allows the user to make a table reservation.
+- The Navigation Bar includes links to the Logo/Home, as well as the About, Gallery, Menu and Find Us sections of the page. Smooth scrolling is employed to allow a smooth transition between the various page sections. Book links to a form in a separate window, which allows the user to make a table reservation.
 
 - The Navigation Bar is fully responsive and switches to a hamburger style menu at smaller screen sizes.
 
 - The Navigation Bar is 'sticky', and remains visible to the user at all times to make navigation easier for the user.
 
-- In large screen format the links are highlighted in a red circle to catch the user's eye, as well as keeping with the Japanese theme.
+- In large screen format the links are highlighted in a red circle on mouse hover to catch the user's eye, as well as keeping with the Japanese theme.
 
 ![Navigation bar for desktop and mobile](docs/screenshots/navbar-desktop-mobile.png)
 
@@ -70,9 +72,17 @@ This is primarily a single page scrolling website with a sticky header to allow 
 
 - The Booking section is on a separate page with all other information removed.
 
-- The user can fill out the form to make a table reservation and return to the main page using the 'Go Back' button.
+- The user can fill out the form to make a table reservation or return to the home page using the 'Go Back' button.
 
 ![Booking section](docs/screenshots/booking-section.PNG)
+
+### Confirmation section
+
+- The Confirmation section is on a separate page with all other information removed.
+
+- This simply lets the user know that the booking form has been successfully completed and return to the home page using the 'Home' button.
+
+![Booking section](docs/screenshots/confirmation-section.PNG)
 
 ### Features to be implemented
 
@@ -94,12 +104,25 @@ This is primarily a single page scrolling website with a sticky header to allow 
     - Test all links in the navigation bar for functionality and to ensure smooth scrolling between sections.
     - Navigate to booking page to repeat visual inspection of layout.
     - Test booking form works as expected, including back and submit buttons, using https://formdump.codeinstitute.net/
+    - Navigate to confirmation page to repeat visual inspection of layout.
+    - Use Home button to return to home page.
 
-- Responsive design was tested primarily using Chrome DevTools across standard screen sizes from desktop (1920x1080) down to small mobile (320x480). Transitions between all media query breakpoints were observed. Testing was also conducted on several available hardware devices within the above range of screen sizes.
+- Responsive design testing consisted of the following:
+    - Responsive design was tested on all pages, primarily using Chrome DevTools across standard screen sizes from desktop (1920x1080) down to small mobile (320x480).
+    - Transitions between all media query breakpoints were observed.
+    - Testing was also conducted on several available hardware devices within the above range of screen sizes.
 
-### Bugs
+### Fixed Bugs
 
+- When implementing the hamburger menu for smaller screen sizes, the font awesome icon was blocking the drop-down menu button and preventing it from being clicked. Researching the issue led to a post on Stack Overflow (link can be found in the credits section) which suggested setting the pointer-events property to none in CSS. This solved the issue.
 
+- On loading the home page initially, the scrolling triggered by navigating to other sections on the page was not smooth. The scrolling became smooth after the first one to two clicks. It was suspected that this was being caused by excessive image sizes. Having applied proper sizing to the images, the problem seems to have disappeared.
+
+- On an iPad running an older version of Safari, the navigation bar was not acting as a sticky element. It was discovered that the developer had forgotten to add the -webkit- prefix to the sticky value, as required by Safari. When this was added, the issue was rectified (link showing how to apply position:sticky; to the header can be found in the credits section).
+
+### Known Bugs
+
+- The Booking form allows the user to input dates and times which are outwith opening hours and/or in the past. There is also nothing preventing overbooking as there is no constraint on capacity at any given time. Research suggests that javascript is required to rectify these issues. Due to a lack of experience in the use of javascript, this was not attempted.
 
 ### Validator Testing
 
