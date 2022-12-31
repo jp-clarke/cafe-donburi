@@ -238,12 +238,22 @@ li {
     background-color: rgba(238, 230, 217, 1);
 }
 
+#confirmation {
+    width: 600px;
+    margin: 50px auto;
+    border: 3px solid red;
+    border-radius: 10px;
+    background-color: rgba(238, 230, 217, 1);
+}
+
 form {
     padding: 0 25px 25px 25px;
 }
 
-form h2 {
+.form-heading {
     color: #111926;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 label {
@@ -312,6 +322,27 @@ label {
 }
 
 #back:hover {
+    font-weight: bold;
+    color: white;
+    background-color: #111926;
+}
+
+#home {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 25px auto 25px;
+    background-color: rgba(238, 230, 217, 1);
+    border: 5px solid #111926;
+    color: #111926;
+    text-decoration: none;
+    text-align: center;
+    line-height: 100px;
+    font-size: 100%;
+}
+
+#home:hover {
     font-weight: bold;
     color: white;
     background-color: #111926;
@@ -441,7 +472,7 @@ footer {
         margin-bottom: 50px;
     }
 
-    #booking {
+    #booking, #confirmation {
         width: 95%;
         margin-top: 15px;
         margin-bottom: 15px;
